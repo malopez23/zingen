@@ -10,7 +10,7 @@
   font: inherit;
 
   -webkit-font-smoothing: antialiased;
-  -webkit-osx-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -19,14 +19,13 @@
   --stroke-color: #27272a;
   --text-color-primary: #f4f4f5;
   --text-color-secondary: #a1a1aa;
-
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
 
-  --ff-sans: "Inter", system-ui, sans-serif;
+  --ff-sans: 'Inter', system-ui, sans-serif;
   --fw-base: 400;
   --fw-md: 500;
-  --fw-bold: 600;
+  --fw-bold: 800;
 
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
@@ -47,10 +46,15 @@ html {
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-primary);
+
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 h1,
@@ -59,7 +63,7 @@ h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.04rem;
 }
 
 h1 {
@@ -91,7 +95,7 @@ a:hover {
   color: transparent;
 }
 
-ul[role="list"] {
+ul[role='list'] {
   list-style: none;
 }
 
@@ -109,6 +113,7 @@ img {
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
     --py-xl: 5rem;
+
     --px-lg: 2rem;
   }
 }
