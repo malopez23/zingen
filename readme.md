@@ -2,16 +2,18 @@
 
 Bem-vindo ao **Zingen**, o aplicativo perfeito para aprender a cantar, se divertir e evoluir no karaokê! 🎤✨
 
+> **Este repositório contém apenas a landing page do Zingen.**
+
 ## Sobre o Projeto
 
 O Zingen utiliza Inteligência Artificial para remover a voz original das músicas, permitindo que você cante com as melodias originais. O app também avalia sua performance e afinação, ajudando você a melhorar cada vez mais.
 
-## Funcionalidades
+## Funcionalidades da Landing Page
 
-- 🎵 **Biblioteca ilimitada:** Cante qualquer música, nossa IA remove a voz original!
-- 🏆 **Experiência gamificada:** Ganhe pontos, desafie-se e acompanhe sua evolução.
-- 🎤 **Gravação de áudio e vídeo:** Grave suas performances para compartilhar ou acompanhar seu progresso.
-- 👨‍👩‍👧‍👦 **Planos para todos:** Gratuito, Premium e Família.
+- 🎵 **Apresentação do produto:** Conheça os diferenciais do Zingen.
+- 🏆 **Destaque dos planos:** Veja as opções Gratuito, Premium e Família.
+- 📱 **Links para download:** Botões para baixar o app nas lojas.
+- 💡 **Design responsivo:** Visual moderno e adaptável a qualquer tela.
 
 ## Layout
 
